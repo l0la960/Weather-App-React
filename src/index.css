@@ -156,6 +156,13 @@ padding:0.7rem 2.5rem ;
 }
 }
 
+@media screen and (min-width:500px) and (max-width:1024px){
+#searchbar-input{
+width: 50vw;
+padding:0.7rem 3rem ;
+}
+}
+
 
 .searchbar-input-icon-group {
 position: relative;
@@ -172,7 +179,7 @@ z-index: 1;
 letter-spacing: 1px;
 cursor: pointer;
 border-radius: 0.575rem;
-padding: 0.7rem;
+padding: 0.7rem 1rem;
 border: none;
 color: white;
 background-color:hsl(233, 67%, 56%);
