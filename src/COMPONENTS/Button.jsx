@@ -1,5 +1,8 @@
-export default function Button ({onClick,name, classname}) {
+export default function Button ({onClick, name, classname,icon}) {
 return (
-<button className={classname}>{name}</button>
+<button className={classname}>
+<img src={icon}></img>
+{name}
+</button>
 )
 }

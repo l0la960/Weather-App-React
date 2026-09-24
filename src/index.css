@@ -184,3 +184,46 @@ border: none;
 color: white;
 background-color:hsl(233, 67%, 56%);
 }
+
+.error-state-container {
+margin-top: 5rem;
+text-align: center;
+gap: 1.5rem;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+.error-state-container h1 {
+color: white;
+}
+
+.error-state-container p {
+color:hsl(240, 6%, 70%) ;
+max-width: 500px;
+}
+
+.error-state-error-icon {
+width: 2rem;
+height: 2rem;
+}
+
+.error-state-retry-btn {
+cursor: pointer;
+color:hsl(240, 6%, 70%);
+background-color:hsl(243, 23%, 24%) ;
+display: flex;
+gap: 0.5rem;
+align-items: center;
+padding: 0.450rem 0.850rem;
+border-radius: 0.365rem;
+border: none;
+}
+
+.error-state-retry-btn:hover {
+opacity: 0.8;
+}
+
+
+
