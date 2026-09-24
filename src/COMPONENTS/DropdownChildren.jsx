@@ -2,7 +2,7 @@ function DropdownNavContent () {
 return (
     <>
    <div className="nav-dropdown-heading">
-          <p>Switch to Imperial</p>
+          <a id='nav-dropdown-heading-id' href="#" >Switch to Imperial</a>
           </div>   
           <div>
             <h6 className="nav-dropdown-option-heading">Temperature</h6>
